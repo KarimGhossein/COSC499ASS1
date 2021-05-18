@@ -28,21 +28,9 @@ def get_char():
         single_char = input("Invalid - Try again:")
     return single_char
 #------------------------------------------------------------------------
- 
-def print_box():
-    size = get_size()
-    char = get_char()
-    print_line(char, char, size)
-    for i in range(size - 2):
-        print_line(char, " ", size)
-    print_line(char, char, size)
- #-----------------------------------------------------------------------
 def main():
     ch = get_char()
     size = get_size()
     print_line("|", ch, size)
-    print_box()
-
-
 main()
 
