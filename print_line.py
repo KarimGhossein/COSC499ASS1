@@ -1,10 +1,4 @@
- 
-#-----------------------------------------------------------------------------
-#Program: L5Q1KAG.py
-#Purpose: to create multiple functions evantually using them to make a box out
-#of a character
-#-----------------------------------------------------------------------------
- 
+
 #Print a row of c characters, and a being at the beggining and end
 def print_line(a, b, c):
     print(a, str(b) * (c - 2), a, sep = "")
